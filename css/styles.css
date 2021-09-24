@@ -143,8 +143,15 @@ img {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  height: 600px;
   margin-top: 0;
+  height: 600px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(to bottom, rbga 47, 48, 58, 0.4), url('../images/bg.img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
