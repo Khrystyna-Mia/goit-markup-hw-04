@@ -144,14 +144,16 @@ img {
   background-color: var(--secondary-color);
   text-align: center;
   margin-top: 0;
-  height: 600px;
+
   max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: linear-gradient(to bottom, rbga 47, 48, 58, 0.4), url('../images/bg.img.jpg');
+  height: 600px;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg.img.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
 .hero-title {
@@ -212,7 +214,22 @@ img {
   margin-left: 30px;
 }
 
-.features-title {
+.features-list::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-color);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-antenna::before {
+  background-image: url();
+}
+
+. .features-title {
   color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
