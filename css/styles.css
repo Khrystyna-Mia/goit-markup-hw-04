@@ -224,10 +224,10 @@ img {
   background-color: var(--background-color);
 }
 
-.thumb-icon {
+/* .thumb-icon {
   width: 70px;
   height: 70px;
-}
+} */
 
 .features-title {
   color: var(--title-color);
@@ -308,6 +308,27 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-link {
+  content: '';
+  width: 206px;
+  height: 44;
+  padding: 16px 32px 30px 32px;
+  border: none;
+  border-radius: 12px;
+}
+
+.team-icon {
+  margin-right: 10px;
+  fill: #afb1b8;
+  background-position: center;
+}
+
+.team-icon:hover,
+.team-icon:focus {
+  fill: #ffffff;
+  background: #2196f3;
+}
+
 /* .team-img > img {
   display: block;
   max-width: 100%;
@@ -334,6 +355,25 @@ img {
   margin-bottom: 30px;
 }
 
+/* Client */
+.client-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.client-list {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 94px;
+}
 /* Стили для portfolio.html*/
 
 /* Portfolio buttons */
