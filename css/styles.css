@@ -115,11 +115,16 @@ img {
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
+  fill: #2196f3;
 }
 
 /* Contacts */
 .contacts .item + .item {
   margin-left: 50px;
+}
+
+.contacts .link-icon {
+  margin-right: 10px;
 }
 
 .contacts {
@@ -135,6 +140,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  fill: #757575;
 }
 
 /* Стили для index.html */
@@ -341,7 +348,8 @@ img {
   fill: #afb1b8;
 }
 
-.team-icon:hover {
+.team-icon:hover,
+.team-icon:focus {
   fill: #ffffff;
   background: #2196f3;
 }
@@ -510,19 +518,37 @@ img {
 }
 
 /* Join */
-
+.footer-social {
+  display: flex;
+  /* align-items: baseline;
+  text-align: left; */
+}
 .join-title {
   color: var(--white-color);
-  font-style: normal;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: left;
+
+  display: block;
+  margin-bottom: 20px;
 }
 
-.join {
-  margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
+.join-link {
+  display: inline-block;
+  justify-content: center;
+}
+
+.join-icon {
+  border-radius: 50%;
+  margin-right: 10px;
+  fill: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.join-icon:hover,
+.join-icon:focus {
+  background: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
