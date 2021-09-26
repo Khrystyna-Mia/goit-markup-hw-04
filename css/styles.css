@@ -310,17 +310,14 @@ img {
 
 .team-link {
   content: '';
-  width: 206px;
-  height: 44;
-  padding: 16px 32px 30px 32px;
-  border: none;
-  border-radius: 12px;
+  height: 44px;
 }
 
 .team-icon {
+  /* justify-content: center;
+  align-items: center; */
   margin-right: 10px;
   fill: #afb1b8;
-  background-position: center;
 }
 
 .team-icon:hover,
@@ -372,6 +369,7 @@ img {
   width: 170px;
   height: 92px;
   border: 1px solid var(--border-color);
+  align-items: center;
 }
 
 .client-list > .client-item + .client-item {
@@ -387,7 +385,7 @@ img {
 }
 
 .client-icon:hover,
-.client-icon :focus {
+.client-icon:focus {
   fill: #2196f3;
 }
 
@@ -509,4 +507,15 @@ img {
 
   display: inline-block;
   margin-bottom: 9px;
+}
+
+/* Join */
+
+.join_wrapper_title {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
 }
