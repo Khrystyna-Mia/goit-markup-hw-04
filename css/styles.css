@@ -475,6 +475,11 @@ img {
 }
 
 /* Footer */
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .page-footer {
   background-color: var(--secondary-color);
   padding: 60px 0;
@@ -504,6 +509,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
 
+  display: block;
   margin-top: 20px;
 }
 
@@ -513,13 +519,14 @@ img {
   font-size: 14px;
   line-height: 1.71;
 
-  display: inline-block;
   margin-bottom: 9px;
 }
 
 /* Join */
 .footer-social {
-  display: flex;
+  margin-top: 12px;
+  margin-left: 70px;
+  /* display: flex; */
   /* align-items: baseline;
   text-align: left; */
 }
@@ -537,7 +544,6 @@ img {
 
 .join-link {
   display: inline-block;
-  justify-content: center;
 }
 
 .join-icon {
