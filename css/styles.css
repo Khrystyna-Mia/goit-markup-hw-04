@@ -308,24 +308,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-link {
-  content: '';
-  height: 44px;
-}
-
-.team-icon {
-  /* justify-content: center;
-  align-items: center; */
-  margin-right: 10px;
-  fill: #afb1b8;
-}
-
-.team-icon:hover,
-.team-icon:focus {
-  fill: #ffffff;
-  background: #2196f3;
-}
-
 .employee {
   color: var(--title-color);
   font-weight: 500;
@@ -344,6 +326,24 @@ img {
   text-align: center;
 
   margin-bottom: 30px;
+}
+
+/* Social links */
+.team-link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.team-icon {
+  border-radius: 50%;
+  margin-right: 10px;
+  fill: #afb1b8;
+}
+
+.team-icon:hover {
+  fill: #ffffff;
+  background: #2196f3;
 }
 
 /* Client */
@@ -511,11 +511,18 @@ img {
 
 /* Join */
 
-.join_wrapper_title {
+.join-title {
   color: var(--white-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: left;
+}
+
+.join {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
