@@ -257,7 +257,7 @@ img {
 .work-list {
   display: flex;
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
@@ -329,12 +329,6 @@ img {
   background: #2196f3;
 }
 
-/* .team-img > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
-
 .employee {
   color: var(--title-color);
   font-weight: 500;
@@ -365,15 +359,38 @@ img {
 
   margin-top: 0;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .client-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.client-list > .client-item {
   width: 170px;
   height: 92px;
   border: 1px solid var(--border-color);
-  margin-bottom: 94px;
 }
+
+.client-list > .client-item + .client-item {
+  margin-left: 30px;
+}
+
+.client-link {
+  fill: #afb1b8;
+}
+
+.client-item {
+  padding: 16px 32px;
+}
+
+.client-icon:hover,
+.client-icon :focus {
+  fill: #2196f3;
+}
+
 /* Стили для portfolio.html*/
 
 /* Portfolio buttons */
@@ -424,12 +441,6 @@ img {
   margin: 15px;
   border: 1px solid var(--border-color);
 }
-
-/* .portfolio-card > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
 
 .card-content {
   padding: 20px 24px;
