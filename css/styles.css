@@ -487,9 +487,12 @@ img {
   padding: 60px 0;
 }
 
-.contact {
+.container .footer {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.contact {
+  display: inline-block;
 }
 
 .logo-footer {
@@ -524,8 +527,8 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-
-  display: inline-block;
+  display: block;
+  /* display: inline-block; */
   margin-bottom: 9px;
 }
 
@@ -537,13 +540,11 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* display: inline-flex; */
-  /* display: block;
-  flex-wrap: wrap; */
+
   margin-bottom: 20px;
 }
 
-.join-link {
+.join-item {
   display: inline-block;
 }
 
