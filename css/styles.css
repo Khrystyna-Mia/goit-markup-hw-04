@@ -492,11 +492,6 @@ img {
   flex-wrap: wrap;
 }
 
-.contacts-footer .footer-social {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .contact {
   display: inline-block;
 }
