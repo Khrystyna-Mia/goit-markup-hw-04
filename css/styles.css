@@ -154,6 +154,7 @@ img {
   text-align: center;
   margin: 0 auto;
   padding: 200px 0px;
+
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bg.img.jpg);
   background-size: cover;
@@ -217,6 +218,7 @@ img {
 .features > .features-list + .features-list {
   margin-left: 30px;
 }
+
 .thumb {
   content: '';
   display: flex;
@@ -227,11 +229,6 @@ img {
   margin-bottom: 30px;
   background-color: var(--background-color);
 }
-
-/* .thumb-icon {
-  width: 70px;
-  height: 70px;
-} */
 
 .features-title {
   color: var(--title-color);
