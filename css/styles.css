@@ -149,13 +149,11 @@ img {
 /* Hero */
 .hero {
   background-color: var(--secondary-color);
-  text-align: center;
-  margin-top: 0;
-
   max-width: 1600px;
   height: 600px;
-  margin-left: 0;
-  margin-right: 0;
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px 0px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bg.img.jpg);
   background-size: cover;
@@ -173,7 +171,6 @@ img {
 
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 /* Button */
@@ -487,21 +484,24 @@ img {
   padding: 60px 0;
 }
 
-.container .footer {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.contact {
-  display: inline-block;
-}
-
 .logo-footer {
   color: var(--white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
+  display: block;
+}
+
+.container.footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-social {
+  margin-top: 12px;
+  margin-left: 70px;
 }
 
 .contacts-footer {
@@ -541,18 +541,24 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  display: inline-block;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
-.join-item {
-  display: inline-block;
+.join {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.join .join-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .join-icon {
   border-radius: 50%;
-  margin-right: 10px;
   fill: #ffffff;
   background: rgba(255, 255, 255, 0.1);
 }
